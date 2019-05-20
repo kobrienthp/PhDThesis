@@ -1,0 +1,135 @@
+%\documentclass[11pt, a4paper, twoside, openright, draft]{book}
+\documentclass[11pt, a4paper, twoside, openright]{book}
+
+\input{./include/packages.tex}
+\input{./include/headerGeneral.tex}
+
+\usepackage{afterpage}
+\setlength{\marginparwidth}{2.5cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\begin{document}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FRONT MATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\pagestyle{empty}
+\pagenumbering{gobble}
+\hypersetup{pageanchor=false}
+
+\input{titlePage.tex}
+
+\singlespacing
+\input{abstractEnglish.tex}
+\input{abstractGerman.tex}
+
+\newpage
+\mbox{}
+\newpage
+\input{dedication.tex}
+
+\onehalfspacing
+\tableofcontents
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MAIN MATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\normalsize
+\singlespacing
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+\setcounter{page}{1}
+\hypersetup{pageanchor=true}
+\pagestyle{fancy}
+\fancyhead{}
+\setlength{\headheight}{13.6pt}
+\fancyhead[RE]{\nouppercase\leftmark}
+\fancyhead[LE]{\textbf{\thepage}}
+\fancyhead[LO]{\nouppercase\rightmark}
+\fancyhead[RO]{\textbf{\thepage}}
+\cfoot{}
+\pagenumbering{arabic}
+
+
+\input{chapter01.tex}	% Introduction
+\input{chapter02.tex}	% Kitaev Honeycomb Model
+\input{chapter03.tex}	% Transition Metal Oxides as Kitaev Materials
+\input{chapter04.tex}	% Quantum Order and Projective Symmetry Groups
+\input{chapter05.tex}	% Classification of Gapless Kitaev Spin Liquids
+\input{chapter06.tex}	% Chiral Spin Liquids on the Hypernonagon Lattice (9,3)a
+\input{chapter07.tex}	% Correlations in Kitaev Spin Liquids
+\input{chapter08.tex}	% Summary and Outlook
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BACK MATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\newpage
+\mbox{}
+\newpage
+\appendix
+\part*{Appendices}
+\addcontentsline{toc}{part}{Appendices}
+\pagestyle{empty}
+\pagestyle{fancy}
+\fancyhead{}
+\setlength{\headheight}{13.6pt}
+\fancyhead[RE]{\nouppercase\leftmark}
+\fancyhead[LE]{\textbf{\thepage}}
+\fancyhead[LO]{\nouppercase\rightmark}
+\fancyhead[RO]{\textbf{\thepage}}
+\cfoot{}
+
+
+\input{appendixLoopModels.tex}						% Loop Models: A Perturbation Theory Study of Kitaev Models
+\input{appendixThreeDimensionalKitaevModels.tex}	% Three-Dimensional Kitaev Models
+
+
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\mbox{}
+\newpage
+\addcontentsline{toc}{part}{References}
+\printbibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\mbox{}
+\newpage
+\input{acknowledgements.tex}
+\pagestyle{empty}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{eigenstaendigkeitserklaerung.tex}
+\pagestyle{empty}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\newpage
+\mbox{}
+\newpage
+\includepdf[fitpaper=true, pages=-]{../figures/CV.pdf}
+%
+%
+\end{document}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

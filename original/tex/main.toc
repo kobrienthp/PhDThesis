@@ -1,0 +1,267 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Kitaev Honeycomb Model}{5}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Definition of the model}{6}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}\ensuremath {\mathbb {Z}_{2}}~gauge theory description}{8}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}General aspects of the solution}{9}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Ground state phase diagram}{11}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Application of a weak magnetic field}{12}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}The significance of time-reversal symmetry}{12}{subsection.2.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}Derivation of an effective Hamiltonian}{15}{subsection.2.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.3}Topology of the effective Hamiltonian}{17}{subsection.2.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Summary}{18}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Transition Metal Oxides as Kitaev Materials}{21}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Spin-orbit entangled $J_{\rm eff} = 1/2$~Mott insulators}{22}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Crystal field splitting}{23}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Spin-orbit coupling and electronic correlations}{24}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Spin exchange mechanism}{26}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Idealized Kitaev interaction}{26}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Additional exchange terms}{27}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Kitaev materials}{28}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Honeycomb Na$_2$IrO$_3$}{28}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Honeycomb $\alpha $-Li$_2$IrO$_3$}{29}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Honeycomb $\alpha $-RuCl$_3$}{29}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hyperhoneycomb $\beta $-Li$_2$IrO$_3$ and stripy-honeycomb $\gamma $-Li$_2$IrO$_3$}{30}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Summary}{30}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Quantum Order and Projective Symmetry Groups}{33}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Overview of the projective symmetry group}{36}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Projective construction of quantum spin liquids}{38}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}The invariant gauge group}{41}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}The projective symmetry group}{44}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Application to the Kitaev honeycomb model}{47}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Summary}{51}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Classification of Gapless Kitaev Spin Liquids}{53}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Overview of classification via projective symmetries}{56}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}3D Kitaev models}{61}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Lattice (8,3)a}{61}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lattice information}{61}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure}{64}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Projective symmetries}{64}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{65}{section*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Lattice (8,3)b}{67}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lattice information}{67}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure}{68}{section*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Projective symmetries}{68}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{69}{section*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Lattice (8,3)c}{72}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lattice information}{72}{section*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure}{73}{section*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Projective symmetries}{74}{section*.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{75}{section*.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}Lattice (8,3)n}{76}{subsection.5.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lattice information}{76}{section*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure}{77}{section*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Projective symmetries}{78}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{79}{section*.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.5}Lattice (9,3)a}{80}{subsection.5.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lattice information}{80}{section*.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure}{81}{section*.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Projective symmetries}{82}{section*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{83}{section*.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.6}Lattice (10,3)a}{83}{subsection.5.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lattice information}{83}{section*.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure}{84}{section*.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Projective symmetries}{84}{section*.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{85}{section*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.7}Lattice (10,3)b}{86}{subsection.5.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lattice information}{86}{section*.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure}{87}{section*.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Projective symmetries}{88}{section*.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{89}{section*.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.8}Lattice (10,3)c}{89}{subsection.5.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lattice information}{89}{section*.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure}{90}{section*.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Projective symmetries}{91}{section*.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{92}{section*.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Spin-Peierls instabilities}{93}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Summary and outlook}{94}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Chiral Spin Liquids on the Hypernonagon Lattice (9,3)a}{97}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Lattice information}{98}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Ground state flux configurations}{99}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Quantum Monte Carlo simulations}{99}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Results}{100}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Gapless spin liquids}{101}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Fermionic phase diagram}{101}{subsection.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}SI flux phase}{102}{subsection.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure and projective symmetries}{102}{section*.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{102}{section*.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.3}AF flux phase}{103}{subsection.6.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure and projective symmetries}{103}{section*.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{104}{section*.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.4}AFII flux phase}{106}{subsection.6.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gauge structure and projective symmetries}{106}{section*.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Majorana band structure}{107}{section*.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Summary and outlook}{109}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Correlations in Kitaev Spin Liquids}{111}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}A brief introduction to classical Kitaev spin liquids}{112}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Spin-spin correlations in quantum Kitaev spin liquids}{113}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.1}Spin-spin correlations at zero temperature}{113}{subsection.7.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.2}Spin-spin correlations at finite temperature}{115}{subsection.7.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Bond-bond correlations at zero temperature}{119}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}General considerations and numerics}{119}{subsection.7.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Asymptotic evaluation of correlation functions}{122}{subsection.7.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Square-octagon lattice}{123}{section*.93}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Honeycomb lattice}{126}{section*.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Three-dimensional lattices}{128}{section*.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Bond-bond correlations at finite temperature}{130}{section.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Summary and outlook}{131}{section.7.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Summary and Outlook}{133}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{Appendices}{139}{part*.101}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Loop models: A perturbation theory study of Kitaev models}{139}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Lattice (6,3)}{140}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Lattice (10,3)b}{141}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Effective Hamiltonian}{141}{section*.103}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Constraints and the ground state}{143}{section*.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Lattice (10,3)a}{144}{section.A.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Effective Hamiltonian}{144}{section*.107}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Constraints and the ground state}{144}{section*.109}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Lattice (8,3)b}{145}{section.A.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Effective Hamiltonian}{145}{section*.110}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Constraints and the ground state}{146}{section*.112}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Lattice (8,3)c}{147}{section.A.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Effective Hamiltonian}{147}{section*.113}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Constraints and the ground state}{147}{section*.115}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Three-Dimensional Kitaev Models}{149}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Lattice (8,3)a}{149}{section.B.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Lattice (8,3)b}{150}{section.B.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.3}Lattice (8,3)c}{150}{section.B.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.4}Lattice (8,3)n}{151}{section.B.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.5}Lattice (9,3)a}{152}{section.B.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.6}Lattice (10,3)a}{153}{section.B.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.7}Lattice (10,3)b}{154}{section.B.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.8}Lattice (10,3)c}{155}{section.B.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{References}{158}{figure.caption.132}

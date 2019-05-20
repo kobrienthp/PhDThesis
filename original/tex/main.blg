@@ -1,0 +1,34 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'main.blg'
+[53] biber-darwin:276> INFO - === Fri Mar  8, 2019, 09:47:00
+[53] 388d08c1.pm:333> INFO - Reading 'main.bcf'
+[176] 388d08c1.pm:645> INFO - Found 237 citekeys in bib section 0
+[206] 388d08c1.pm:2977> INFO - Processing section 0
+[227] 388d08c1.pm:3115> INFO - Looking for bibtex format file 'master.bib' for section 0
+[247] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[266] bibtex.pm:895> INFO - Found BibTeX data source 'master.bib'
+[664] Utils.pm:146> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[665] Utils.pm:146> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[665] Utils.pm:146> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[665] Utils.pm:146> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[2480] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2480] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2480] 388d08c1.pm:2854> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-US'
+[2480] 388d08c1.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[2674] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'ascii'
+[2692] Utils.pm:146> WARN - The entry 'ChaloupkaPRL2010' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2693] Utils.pm:146> WARN - The entry 'WinterPRB2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2695] Utils.pm:146> WARN - The entry 'LuepkePRB2015' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2699] Utils.pm:146> WARN - The entry 'KoitzschPRL2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2701] Utils.pm:146> WARN - The entry 'JohnsonPRB2015' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2704] Utils.pm:146> WARN - The entry 'WinterNatComm2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2707] Utils.pm:146> WARN - The entry 'Pines1966' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2710] Utils.pm:146> WARN - The entry 'FroehlichNPB1991' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2710] Utils.pm:146> WARN - The entry 'FroehlichRMP1993' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2716] Utils.pm:146> WARN - The entry 'HalaszPRL2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2718] Utils.pm:146> WARN - The entry 'HeeschZFK1933' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2720] Utils.pm:146> WARN - The entry 'WeisseRMP2006' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2721] Utils.pm:146> WARN - The entry 'WeissePRL2009' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2727] Utils.pm:146> WARN - The entry 'HalaszPRB2014' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2728] bbl.pm:596> INFO - Output to main.bbl
+[2729] 388d08c1.pm:106> INFO - WARNINGS: 18

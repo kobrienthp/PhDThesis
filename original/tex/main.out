@@ -1,0 +1,79 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Kitaev Honeycomb Model}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Definition of the model}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Z2 gauge theory description}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{General aspects of the solution}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Ground state phase diagram}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.5}{Application of a weak magnetic field}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.5.1}{The significance of time-reversal symmetry}{section.2.5}% 8
+\BOOKMARK [2][-]{subsection.2.5.2}{Derivation of an effective Hamiltonian}{section.2.5}% 9
+\BOOKMARK [2][-]{subsection.2.5.3}{Topology of the effective Hamiltonian}{section.2.5}% 10
+\BOOKMARK [1][-]{section.2.6}{Summary}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Transition Metal Oxides as Kitaev Materials}{}% 12
+\BOOKMARK [1][-]{section.3.1}{Spin-orbit entangled Jeff=1/2 Mott insulators}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.1.1}{Crystal field splitting}{section.3.1}% 14
+\BOOKMARK [2][-]{subsection.3.1.2}{Spin-orbit coupling and electronic correlations}{section.3.1}% 15
+\BOOKMARK [1][-]{section.3.2}{Spin exchange mechanism}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Idealized Kitaev interaction}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{Additional exchange terms}{section.3.2}% 18
+\BOOKMARK [1][-]{section.3.3}{Kitaev materials}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Summary}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Quantum Order and Projective Symmetry Groups}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Overview of the projective symmetry group}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Projective construction of quantum spin liquids}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.3}{The invariant gauge group}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.4}{The projective symmetry group}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.5}{Application to the Kitaev honeycomb model}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.6}{Summary}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Classification of Gapless Kitaev Spin Liquids}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Overview of classification via projective symmetries}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{3D Kitaev models}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.2.1}{Lattice \(8,3\)a}{section.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.2.2}{Lattice \(8,3\)b}{section.5.2}% 32
+\BOOKMARK [2][-]{subsection.5.2.3}{Lattice \(8,3\)c}{section.5.2}% 33
+\BOOKMARK [2][-]{subsection.5.2.4}{Lattice \(8,3\)n}{section.5.2}% 34
+\BOOKMARK [2][-]{subsection.5.2.5}{Lattice \(9,3\)a}{section.5.2}% 35
+\BOOKMARK [2][-]{subsection.5.2.6}{Lattice \(10,3\)a}{section.5.2}% 36
+\BOOKMARK [2][-]{subsection.5.2.7}{Lattice \(10,3\)b}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.8}{Lattice \(10,3\)c}{section.5.2}% 38
+\BOOKMARK [1][-]{section.5.3}{Spin-Peierls instabilities}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.4}{Summary and outlook}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{Chiral Spin Liquids on the Hypernonagon Lattice \(9,3\)a}{}% 41
+\BOOKMARK [1][-]{section.6.1}{Lattice information}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.2}{Ground state flux configurations}{chapter.6}% 43
+\BOOKMARK [2][-]{subsection.6.2.1}{Quantum Monte Carlo simulations}{section.6.2}% 44
+\BOOKMARK [2][-]{subsection.6.2.2}{Results}{section.6.2}% 45
+\BOOKMARK [1][-]{section.6.3}{Gapless spin liquids}{chapter.6}% 46
+\BOOKMARK [2][-]{subsection.6.3.1}{Fermionic phase diagram}{section.6.3}% 47
+\BOOKMARK [2][-]{subsection.6.3.2}{SI flux phase}{section.6.3}% 48
+\BOOKMARK [2][-]{subsection.6.3.3}{AF flux phase}{section.6.3}% 49
+\BOOKMARK [2][-]{subsection.6.3.4}{AFII flux phase}{section.6.3}% 50
+\BOOKMARK [1][-]{section.6.4}{Summary and outlook}{chapter.6}% 51
+\BOOKMARK [0][-]{chapter.7}{Correlations in Kitaev Spin Liquids}{}% 52
+\BOOKMARK [1][-]{section.7.1}{A brief introduction to classical Kitaev spin liquids}{chapter.7}% 53
+\BOOKMARK [1][-]{section.7.2}{Spin-spin correlations in quantum Kitaev spin liquids}{chapter.7}% 54
+\BOOKMARK [2][-]{subsection.7.2.1}{Spin-spin correlations at zero temperature}{section.7.2}% 55
+\BOOKMARK [2][-]{subsection.7.2.2}{Spin-spin correlations at finite temperature}{section.7.2}% 56
+\BOOKMARK [1][-]{section.7.3}{Bond-bond correlations at zero temperature}{chapter.7}% 57
+\BOOKMARK [2][-]{subsection.7.3.1}{General considerations and numerics}{section.7.3}% 58
+\BOOKMARK [2][-]{subsection.7.3.2}{Asymptotic evaluation of correlation functions}{section.7.3}% 59
+\BOOKMARK [1][-]{section.7.4}{Bond-bond correlations at finite temperature}{chapter.7}% 60
+\BOOKMARK [1][-]{section.7.5}{Summary and outlook}{chapter.7}% 61
+\BOOKMARK [0][-]{chapter.8}{Summary and Outlook}{}% 62
+\BOOKMARK [-1][-]{part*.101}{Appendices}{}% 63
+\BOOKMARK [0][-]{appendix.A}{Loop models: A perturbation theory study of Kitaev models}{part*.101}% 64
+\BOOKMARK [1][-]{section.A.1}{Lattice \(6,3\)}{appendix.A}% 65
+\BOOKMARK [1][-]{section.A.2}{Lattice \(10,3\)b}{appendix.A}% 66
+\BOOKMARK [1][-]{section.A.3}{Lattice \(10,3\)a}{appendix.A}% 67
+\BOOKMARK [1][-]{section.A.4}{Lattice \(8,3\)b}{appendix.A}% 68
+\BOOKMARK [1][-]{section.A.5}{Lattice \(8,3\)c}{appendix.A}% 69
+\BOOKMARK [0][-]{appendix.B}{Three-Dimensional Kitaev Models}{part*.101}% 70
+\BOOKMARK [1][-]{section.B.1}{Lattice \(8,3\)a}{appendix.B}% 71
+\BOOKMARK [1][-]{section.B.2}{Lattice \(8,3\)b}{appendix.B}% 72
+\BOOKMARK [1][-]{section.B.3}{Lattice \(8,3\)c}{appendix.B}% 73
+\BOOKMARK [1][-]{section.B.4}{Lattice \(8,3\)n}{appendix.B}% 74
+\BOOKMARK [1][-]{section.B.5}{Lattice \(9,3\)a}{appendix.B}% 75
+\BOOKMARK [1][-]{section.B.6}{Lattice \(10,3\)a}{appendix.B}% 76
+\BOOKMARK [1][-]{section.B.7}{Lattice \(10,3\)b}{appendix.B}% 77
+\BOOKMARK [1][-]{section.B.8}{Lattice \(10,3\)c}{appendix.B}% 78
+\BOOKMARK [-1][-]{figure.caption.132}{References}{}% 79

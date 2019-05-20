@@ -1,0 +1,9 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'separateTitlePage.blg'
+[53] biber-darwin:276> INFO - === Fri Mar  8, 2019, 10:33:36
+[54] 388d08c1.pm:333> INFO - Reading 'separateTitlePage.bcf'
+[156] 388d08c1.pm:645> INFO - Found 0 citekeys in bib section 0
+[156] Utils.pm:146> WARN - The file 'separateTitlePage.bcf' does not contain any citations!
+[185] bbl.pm:505> INFO - Writing 'separateTitlePage.bbl' with encoding 'ascii'
+[185] bbl.pm:596> INFO - Output to separateTitlePage.bbl
+[185] 388d08c1.pm:106> INFO - WARNINGS: 1
