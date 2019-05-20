@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introduction}
+\label{chapter:Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+In the study of quantum many-body systems, perhaps the most profound and influential ideas have been those of Landau's theory of phase transitions~\cite{LandauNature1936,LandauZETF1937,GinzburgZETF1950} coupled with Wilson's notions of universality~\cite{WilsonPRB1971I,WilsonPRB1971II,WilsonPRL1972,WilsonRMP1975} and Landau's Fermi liquid theory~\cite{LandauZETF1956,LandauZETF1957,LandauZETF1958}.
+The former provided an understanding of different phases of matter in terms of their differing symmetries and characterized the phase transition in terms of a quantity called the \textit{order parameter} which signals the spontaneous breaking of a symmetry in the system.
+A broken symmetry phase is said to be \textit{ordered} as the microscopic constituents of the system are correlated with one another over large distances.
+Wilson's ideas showed that phase transitions from very different contexts exhibit certain universal characteristics and may be grouped into so-called \textit{universality classes} defined by their critical behavior.
+Landau's Fermi liquid theory allowed for the description of interacting electrons in a metal in terms of nearly free electron-like \textit{quasiparticles} -- collective excitations which have the same charge as the electron, but with an effective mass which differs from that of the electron.
+
+These ideas proved so successful at comprehensively classifying matter for so many years, it signaled a true paradigm shift in condensed matter physics when Tsui, St\"ormer and Gossard discovered the fractional quantum Hall effect~\cite{TsuiPRL1982} in 1982, revealing a phase of matter which evaded understanding in these terms.
+In a fractional quantum Hall liquid, the transverse -- or Hall -- conductance of two-dimensional electrons in a strong magnetic field shows precisely and robustly quantized plateaus at fractional values of $e^2/h$ as a function of magnetic field strength, where $e$ is the fundamental charge and $h$ is Planck's constant.
+Changing the strength of the magnetic field causes the system to undergo a phase transition from one plateau to another.
+However, different fractional quantum Hall states all have the same symmetry and, thus, cannot be described in terms of symmetry breaking.
+Furthermore, the excitations in the system cannot be described by the Fermi liquid theory.
+This ushered in the realization that there exist phases of matter beyond the reach of Landau's theories and that the concept of order must be expanded~\cite{WenJMPB1990,WenAiP1995,WenPRB2002,WenPLA2002}.
+
+Such systems exhibiting \textit{quantum} or \textit{topological orders} can feature novel properties such as gapless edge modes~\cite{HalperinPRB1982,HatsugaiPRL1993,SchulzBaldesJPA2000,KellendonkRMaP2002} or fractionalized excitations~\cite{LaughlinPRL1983,LaughlinIJM1991,dePicciottoNature1997}, \ie, collective excitations whose quantum numbers are fractions of those of the original constituents of the system.
+An example of fractionalized excitations are the quasihole excitations in the $\nu = 1/3$ fractional quantum Hall system which carry a charge equal to one-third that of the electron.
+These fractionalized excitations can obey statistics other than those of bosons or fermions.
+Such \textit{anyons} may acquire an arbitrary phase upon being exchanged -- so-called \textit{Abelian anyons}~\cite{LeinaasNCSIF1977,WilczekPRL1982,GoldinJMP1981,WuPRL1984} -- or, in some cases, exchange of particles corresponds to a non-commuting operation, giving rise to so-called \textit{non-Abelian anyons}~\cite{MoorePLB1988,Witten1989}.
+One of the more tantalizing prospects offered by these phases of matter is the realization of a fault-tolerant, topological quantum computer, wherein information is stored non-locally in states with multiple non-Abelian quasiparticles~\cite{MoessnerPRL2001,LevinRMP2005,LevinPRB2005,NayakRMP2008}.
+
+Another phase categorized by such unconventional "order" which is more germane to this thesis is the \textit{quantum spin liquid}.
+In a quantum spin liquid phase, interacting spins evade magnetic order down to zero temperature as a result of strong quantum fluctuations whilst maintaining a high degree of correlation due to their interactions.
+The lack of magnetic order for any temperature means that a quantum spin liquid falls outside the purview of Landau's traditional order, however, it does not provide for a positive identification of what a spin liquid is.
+A more modern point of view~\cite{SavaryRPP2016} posits that the lack of order is not the essential ingredient of a quantum spin liquid, rather it is the anomalously high degree of entanglement which accompanies it.
+This massive many-body entanglement allows these states to support the kind of non-local, fractionalized excitations mentioned above.
+
+Historically, the idea of the quantum spin liquid was introduced in the form of the resonating valence bond (RVB) state by Anderson as a possible ground state for a spin-1/2 Heisenberg antiferromagnet~\cite{AndersonMRB1973}.
+An RVB state comprises a quantum superposition of states wherein every pair of spins forms a singlet.
+The notion was popularized again years later in the context of high-temperature superconductivity~\cite{AndersonScience1987,BaskaranSSC1987}.
+This work introduced a fermionic description of the spin liquid state later used by Wen~\cite{WenPRB2002,WenPLA2002} to characterize the quantum order of spin liquids using a mathematical object called the \textit{projective symmetry group}.
+
+On the experimental side, there have been several candidate spin liquid materials over the years.
+Perhaps the best studied examples are the triangular-lattice compounds $\kappa$-(ET)$_2$Cu$_2$(CN)$_3$~\cite{ShimizuPRL2003} and Pd$({\rm dmit})_2$(EtMe$_3$Sb)~\cite{ItouPRB2008}, both of which show no long-range magnetic order down to $\sim 30$ mK -- four orders of magnitude smaller than the exchange coupling strengths.
+Additionally, the kagome compound ZnCu$_3({\rm OH})_6$Cl$_2$~\cite{HeltonPRL2007} and the three-dimensional hyperkagome material\linebreak Na$_4$Ir$_3$O$_8$~\cite{OkamotoPRL2007} are considered to be candidates for quantum spin liquids with gapless excitations~\cite{OlariuPRL2008,ImaiPRL2008,LawlerPRL2008,ZhouPRL2008}.
+
+Although much progress has been made over the years concerning quantum spin liquids~\cite{SavaryRPP2016}, the competing interactions and frustration necessary to give rise to such disordered quantum liquids means that models which are both exactly solvable and realistic are hard to come by.
+One model which fits both of these criteria is Kitaev's now famous honeycomb model~\cite{KitaevAoP2006} -- the star of this thesis.
+The model Hamiltonian looks simple, describing a system of spin-1/2 moments on a honeycomb lattice with nearest-neighbor Ising exchange.
+However, the component of spin which is coupled depends on the direction of the bond connecting the two spins -- an example of a quantum compass model~\cite{KugelSPU1982} characterized by an exchange interaction only between certain components of the spin and for which different components are coupled for different bonds~\cite{NussinovRMP2015}.
+The inability to satisfy the incompatible local Ising constraints results in a system of frustrated spins which exhibit no long-range order down to zero temperature.
+The quantum spin liquid ground state hosts fractionalized excitations corresponding to fluxes of an emergent \ZZ~gauge field and fermions which may be either gapped or gapless depending on the values of the exchange couplings.
+The gapped phase has been shown to host Abelian anyon excitations and, under application of a magnetic field, the fermions in the gapless phase are gapped out and the resulting excitations are non-Abelian anyons.
+
+However, just because a model is simple to write down does not make it useful.
+Typically, interacting models do not lend themselves to exact solution and the frustrated nature of the interactions greatly complicates numerical techniques such as quantum Monte Carlo.
+One of the things that makes the Kitaev honeycomb model so important is that it possesses an exact solution, allowing for full analytic control in exploring the complex physics of its ground state phase diagram.
+The original solution to the model involves rewriting the spin-1/2 Hamiltonian in terms of Majorana fermions hopping in a static \ZZ~gauge field -- ultimately being reduced to a theory of free fermions.
+
+While the simplicity and exact solvability of Kitaev's honeycomb model make it very attractive to theorists, it was the work of Jackeli and Khaliullin~\cite{JackeliPRL2009} which made it relevant to experimentalists by revealing the applicability of the model to certain spin-orbit entangled Mott insulators with heavy transition metal ions.
+This work sparked an intense effort to find materials exhibiting such frustrated, bond-dependent interactions.
+In the search for Kitaev materials, prominent examples include the honeycomb iridates Na$_2$IrO$_3$~\cite{SinghPRB2010}, $\alpha$-Li$_2$IrO$_3$~\cite{KobayashiJMC2003,SinghPRL2012} and the ruthenate $\alpha$-RuCl$_3$.
+Additionally, experimentalists have found iridate compounds with dominant Kitaev-type interactions realizing fully three-dimensional lattices as well~\cite{TakayamaPRL2015,LeePRB2015,KimEPL2015,LeePRB2016,KatukuriSP2016,ModicNatComm2014,BiffinPRL2014,KimchiPRB2014}.
+As will be discussed in more detail later in this thesis, all of these materials exhibit long-range magnetic order at finite temperatures and a more realistic description should include additional exchange interactions.
+
+Although such considerations are necessary to realistically describe these materials, the pure Kitaev model still has much to offer on its own.
+This is particularly true when considering its extension to three-dimensional, tricoordinated lattices where it maintains its exact solvability.
+It is precisely this rich and diverse Kitaev spin liquid physics which is the focus of this thesis.
+The work reported here is mainly concerned with the gapless Kitaev spin liquids which appear in a number of tricoordinated, three-dimensional lattices.
+As will be shown, these lattices host a variety of distinct gapless quantum spin liquid phases, the gapless excitations of which are protected by an object called the projective symmetry group.
+A general understanding of this projective symmetry group and the way in which it may be used to classify the Kitaev spin liquids is developed alongside a detailed analysis of the Kitaev model defined on the various three-dimensional lattices.
+Additionally, this thesis reports on some unfinished work examining the correlations of spins in both two- and three-dimensional Kitaev spin liquids.
+
+The remainder of this thesis is outlined as follows.
+Chapter~\ref{chapter:KitaevHoneycombModel} gives a significantly more detailed introduction to the Kitaev honeycomb model than what has been discussed above.
+Chapter~\ref{chapter:TransitionMetalOxides} discusses the interplay of strong crystal field effects, strong spin-orbit coupling and electron correlations which results in dominant Kitaev interactions between spin-orbit entangled $J_{\rm eff} = 1/2$ moments in certain transition metal compounds.
+Both an account of the basic theory as well as a brief discussion of the actual materials are included.
+The goal of Chapter~\ref{chapter:ProjectiveSymmetryGroup} is to introduce Wen's concept of quantum order and to detail the projective symmetry group which can be used to classify certain types of quantum ordered states.
+The chapter finishes with an application of these concepts to the Kitaev honeycomb model in order to frame certain results of Chapter~\ref{chapter:KitaevHoneycombModel} in a different light before the method is applied to the three-dimensional Kitaev spin liquids in later chapters.
+
+Chapters~\ref{chapter:ClassificationOfKSL} and~\ref{chapter:HypernonagonLattice} introduce a number of tricoordinated, three-dimensional lattices to which the Kitaev honeycomb model may be extended and solved exactly.
+Here, the projective symmetry group is leveraged as a tool for understanding the myriad gapless excitations which appear in such three-dimensional spin liquid states.
+While the bulk of this job takes place in Chapter~\ref{chapter:ClassificationOfKSL}, the work detailed in Chapter~\ref{chapter:HypernonagonLattice} takes a closer look at one of the systems which could not be analyzed as straightforwardly, revealing an even richer physics than was previously understood to occur in the Kitaev spin liquids.
+In Chapter~\ref{chapter:SpinCorrelationsOfKSL}, the results of a currently unfinished investigation of spin correlations in Kitaev spin liquids in both two- and three-dimensions are reported.
+Finally, Chapter~\ref{chapter:Conclusion} provides a recapitulation of the results elaborated upon in the main body of this thesis as well as an outlook for further research.

@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% File:			packages.tex
+%
+% Description:	Contains included packages.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[english]{babel}
+
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+
+\usepackage{graphicx}
+\usepackage{csquotes}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bbm}
+\usepackage{bm}
+\usepackage{gensymb}
+\usepackage{mathtools}
+\usepackage{relsize}
+\usepackage{bbold}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{multirow}
+
+\usepackage{layout}
+
+\usepackage{todonotes}
+
+%\usepackage{mathptmx}
+\usepackage{newtxtext,newtxmath}
+
+
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+% activate={true,nocompatibility} - activate protrusion and expansion
+% final - enable microtype; use "draft" to disable
+% tracking=true, kerning=true, spacing=true - activate these techniques
+% factor=1100 - add 10% to the protrusion amount (default is 1000)
+% stretch=10, shrink=10 - reduce stretchability/shrinkability (default is 20/20)
+\setlength{\parskip}{0pt}
+
+\usepackage[%
+backend=biber,%
+style=phys,%
+articletitle=true,biblabel=brackets,%
+chaptertitle=false,pageranges=false%
+]
+{biblatex}
+\addbibresource{master.bib}
+\AtBeginDocument{\renewcommand{\bibname}{References}} 
+
+
+%\usepackage[Lenny]{fncychap}
+
+%\usepackage{bm}
+
+%\usepackage{mathspec}
+
+
+%\usepackage{wrapfig}
+\usepackage[normal, bf, footnotesize]{caption}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{colorlinks = true, linkcolor=black, citecolor=black, urlcolor=black}
+\usepackage{pdfpages}
+%\usepackage[outer=2.0cm, inner=2.7cm, top=4.0cm, bottom=2.4cm, headsep=1.5cm]{geometry}
+\usepackage{ifthen}
+\usepackage{blindtext}
+%\usepackage[activate{true,nocompatability}]{microtype}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
