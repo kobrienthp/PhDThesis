@@ -382,7 +382,7 @@ For simplicity, consider fluctuations only in the $\tau^1$-direction, \ie, $U_{i
 Under the gauge transformation $G_i = \exp{[i \phi^1_i \tau^1]}$, the gauge field transforms as $a^1_{ij} \rightarrow a^1_{ij} + \phi^1_j - \phi^1_i$.
 Since the energy of the system must be gauge invariant, this implies that a mass term proportional to $(a^1_{ij})^2$ is not allowed as it is clearly \textit{not} gauge invariant.
 As $IGG = SU(2)$, gauge transformations may be performed in any direction and, thus, mass terms for $a^2_{ij}$ and $a^3_{ij}$ are similarly forbidden.
-The low-energy theory for such an \textit{Ansatz} is, therefore, one of fermionic spinons coupled to an $SU(2)$ gauge field with gapless gauge bosons and the resulting mean-field spin liquid is referred to as an $SU(2)$ spin liquid.
+The low-energy theory for such an \textit{Ansatz} is, therefore, one of fermionic spinons coupled to an $SU(2)$ gauge field with gapless gauge bosons and the resulting mean-field spin liquid is referred to as an $SU(2)$ \textit{spin liquid}.
 The exception to this is the chiral spin liquid state for which the gapped spinons in the zeroth order mean-field theory realize a quantum Hall system.
 The $SU(2)$ gauge fluctuations in this state are suppressed and acquire a mass due to the presence of a Chern-Simons term needed to describe the non-trivial topology of the system~\cite{KalmeyerPRL1987,WenPRB1989b}.
 
@@ -395,12 +395,12 @@ For the case of $IGG = U(1)$, this implies the existence of a gauge satisfying
 for all sites $i,j$.
 As $U(1)$-gauge transformations for this \textit{Ansatz} are of the form $G_i = \exp{[i \phi_i \tau^3]}$, a mass term for the gauge field $a^3_{ij}$ is seen to be forbidden for the same reason as in the $IGG = SU(2)$ case presented above.
 However, mass terms \textit{are} generated for the $a^2_{ij}$ and $a^3_{ij}$ gauge bosons due to the Anderson-Higgs mechanism associated with the other two generators of $SU(2)$~\cite{WenPRB1991,WenPRB2002,Wen2004}.
-The low-energy theory for such an \textit{Ansatz} is, therefore, one of fermionic spinons coupled to a $U(1)$ gauge field with a gapless gauge boson and the resulting mean-field spin liquid is referred to as a $U(1)$ spin liquid.
+The low-energy theory for such an \textit{Ansatz} is, therefore, one of fermionic spinons coupled to a $U(1)$ gauge field with a gapless gauge boson and the resulting mean-field spin liquid is referred to as a $U(1)$ \textit{spin liquid}.
 
 Finally, consider an \textit{Ansatz} such that for any choice of gauge, the gauge fields at different sites point in all different directions in $SU(2)$-space.
 As a result, the only global gauge transformations that commute with the gauge fields at all sites are $G = \pm \id$ and the IGG is seen to be \ZZ.
 In this case, \textit{all} gauge bosons in the first order mean-field theory will gain a mass via the Anderson-Higgs mechanism~\cite{WenPRB1991,WenPRB2002,Wen2004}.
-The low-energy theory for such an \textit{Ansatz} is, therefore, one of fermionic spinons coupled to a \ZZ~gauge field with no gapless gauge bosons and the resulting mean-field spin liquid is referred to as a \ZZ~spin liquid.
+The low-energy theory for such an \textit{Ansatz} is, therefore, one of fermionic spinons coupled to a \ZZ~gauge field with no gapless gauge bosons and the resulting mean-field spin liquid is referred to as a \ZZ~\textit{spin liquid}.
 
 In general, a mean-field spin liquid with invariant gauge group $IGG$ will be described by a low-energy theory consisting of fermionic spinons coupled to an $IGG$-gauge field.
 For the \ZZ~spin liquid, fully gapped gauge bosons can only mediate short-ranged interactions between the spinons.
@@ -698,6 +698,12 @@ This mean-field theory may be solved to obtain the \textit{Ansatz}~\cite{YouPRB2
 where a convention has been chosen such that site $j$ belongs to sublattice $A$ and site $k$ belongs to sublattice $B$.
 For convenience of notation, let $u^{\mu}_{jk} = \ansatz{U}^{\mu\mu}_{jk}$, where no summation over repeated indices is implied.
 Due to all $u^{\mu}_{jk}$ being unequal for any given link $\avg{j,k}$, the \textit{Ansatz} "breaks" the local $SU(2)$ gauge invariance down to a global \ZZ~gauge invariance, making the invariant gauge group \ZZ.
+Note that, in agreement with the presentation of Chapter~\ref{chapter:KitaevHoneycombModel}, this mean-field \textit{Ansatz} implies the vanishing of spin-spin correlation functions beyond nearest neighbors with
+%
+\begin{equation}
+	\avg{\sigma^{\alpha}_j \sigma^{\beta}_k} = - \delta_{\alpha\beta} \delta_{\avg{j,k}_\alpha} u^{\alpha}_{jk} u^0_{jk} = 0.524866.
+\end{equation}
+%
 
 The zeroth order mean-field theory for the spin liquid may be written as
 %
