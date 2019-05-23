@@ -143,17 +143,6 @@ The QMC simulation may now be performed by sampling the classical, Ising-like va
 In practice, other numerical "tricks" are employed to access larger system sizes and lower temperatures.
 For example, the simulations do not use exact diagonalization to determine the Monte Carlo weight of a given configuration of $\{\eta\}$, rather, they employ a kernel polynomial method~\cite{WeisseRMP2006,WeissePRL2009} to approximate the difference in free energy between two configurations, reducing the numerical cost from $\mathcal{O}(N^4)$ to $\mathcal{O}(N^2)$, where $N$ is the total number of spins~\cite{MischenkoPRB2017}.
 Additionally, the simulations utilized feedback-optimized parallel tempering methods in order to access lower temperatures~\cite{TrebstPRE2004,KatzgraberJSM2006}.
-
-
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Results}
-\label{section:chapter06_QMCResults}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%
-%
 \begin{figure}[tb]
 	\centering
 	\includegraphics[width=\linewidth]{./chapter06/9_3aFluxConfigurations.pdf}
@@ -170,6 +159,17 @@ Additionally, the simulations utilized feedback-optimized parallel tempering met
 	}
 	\label{fig:chapter06_9_3aFluxConfigurations}
 \end{figure}
+%
+
+
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Results}
+\label{section:chapter06_QMCResults}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
 %
 In addition to the QMC simulations described above, a number of potential ground state flux configurations were found from effective models obtained in the various limits of anisotropic exchange couplings via perturbation theory.
 A combination of the QMC results along with a straightforward variational approach using the aforementioned trial flux configurations was used to determine the ground state flux configuration as a function of exchange couplings.
@@ -358,25 +358,6 @@ Due to the lack of a projective time-reversal operator, the momentum space Hamil
 As is the case for the SI phase discussed above, the presence of trivially implemented inversion symmetries, \ie, with vanishing nesting vector, prohibits the formation of stable Fermi surfaces.
 Furthermore, the absence of time-reversal symmetry prevents the formation of nodal lines protected by the one-dimensional winding number discussed in Section~\ref{section:chapter05_8_3c}.
 However, the combination of particle-hole and inversion symmetries allows for the presence of topologically protected Weyl nodes pinned to zero energy.
-
-Indeed, diagonalizing the concrete Hamiltonian for lattice (9,3)a in the AF flux configuration reveals an extended gapless Weyl spin liquid phase (see Figure~\ref{fig:chapter06_AFPanel}~(a)).
-Restricting the exchange couplings to the line $J_x = J_y = (1 - J_z)/2$, the gapless portion of the AF phase runs from $J_z \approx 0.42$, where the ground state flux configuration switches from AFII to AF, to $J_z \approx 0.491$, where the Weyl nodes gap out.
-For $0.42 < J_z \lesssim 0.491$, two oppositely charged Weyl nodes are pinned to the $C_3$-invariant axis while $J_x = J_y$.
-As $J_z$ is increased, the two Weyl nodes move towards each other until they eventually meet at the $\Gamma$-point for $J_z \approx 0.491$ and mutually annihilate.
-
-Figure~\ref{fig:chapter06_AFPanel}~(b) shows the evolution of the Weyl nodes in the 3D Brillouin zone as the exchange couplings are varied for $0.42 \leq J_z \leq 0.491$ with $J_x = J_y = (1 - J_z)/2$.
-The trajectory of negatively charged Weyl nodes changes color from yellow to green as $J_z$ is increased, whereas the trajectory of positively charged Weyl nodes changes from red to green.
-In Figure~\ref{fig:chapter06_AFPanel}~(c) is plotted the Chern number as a function of $k_3 = \bk \cdot \bq_3 / 2\pi$ for $(J_x, J_y, J_z) = (0.27, 0.27, 0.46)$, indicating the charge of the Weyl nodes in the bulk.
-The corresponding Fermi arc in the 001-surface Brillouin zone for the same choice of couplings are plotted in Figure~\ref{fig:chapter06_AFPanel}~(d).
-
-In addition to the Fermi arc which terminates at the projection of the Weyl nodes in the surface Brillouin zone, there appear additional line-like surface states which form incontractible loops.
-These can be seen as remnants of Fermi arcs due to Weyl nodes which are gapped out in this part of the phase diagram.
-If the AF flux configuration is extended beyond its range of validity, \ie, for $J_z \lesssim 0.42$ with $J_x = J_y$, one finds the existence of an additional six Weyl nodes.
-These Weyl nodes emerge from the $\Gamma$-point at $J_z \approx 0.294$ and move away from one another as $J_z$ is increased, always pinned to the three mirror planes.
-At $J_z \approx 0.414$, the six Weyl nodes once again meet and annihilate at the $\Gamma$-point.
-However, as they do so, they trace out incontractible loops across the Brillouin zone.
-In Figure~\ref{fig:chapter06_AFPanel2}~(a) and (b) are pictured the evolution of these six additional Weyl nodes (excluding the two Weyl nodes on the $C_3$-invariant axis mentioned in the previous paragraph) in the bulk Brillouin zone and projected down to the 001-surface Brillouin zone, respectively.
-Here can be seen the incontractible loops along which they travel before gapping out.
 %
 \begin{figure}[tb]
 	\centering
@@ -397,6 +378,25 @@ Here can be seen the incontractible loops along which they travel before gapping
 	\label{fig:chapter06_AFPanel2}
 \end{figure}
 %
+
+Indeed, diagonalizing the concrete Hamiltonian for lattice (9,3)a in the AF flux configuration reveals an extended gapless Weyl spin liquid phase (see Figure~\ref{fig:chapter06_AFPanel}~(a)).
+Restricting the exchange couplings to the line $J_x = J_y = (1 - J_z)/2$, the gapless portion of the AF phase runs from $J_z \approx 0.42$, where the ground state flux configuration switches from AFII to AF, to $J_z \approx 0.491$, where the Weyl nodes gap out.
+For $0.42 < J_z \lesssim 0.491$, two oppositely charged Weyl nodes are pinned to the $C_3$-invariant axis while $J_x = J_y$.
+As $J_z$ is increased, the two Weyl nodes move towards each other until they eventually meet at the $\Gamma$-point for $J_z \approx 0.491$ and mutually annihilate.
+
+Figure~\ref{fig:chapter06_AFPanel}~(b) shows the evolution of the Weyl nodes in the 3D Brillouin zone as the exchange couplings are varied for $0.42 \leq J_z \leq 0.491$ with $J_x = J_y = (1 - J_z)/2$.
+The trajectory of negatively charged Weyl nodes changes color from yellow to green as $J_z$ is increased, whereas the trajectory of positively charged Weyl nodes changes from red to green.
+In Figure~\ref{fig:chapter06_AFPanel}~(c) is plotted the Chern number as a function of $k_3 = \bk \cdot \bq_3 / 2\pi$ for $(J_x, J_y, J_z) = (0.27, 0.27, 0.46)$, indicating the charge of the Weyl nodes in the bulk.
+The corresponding Fermi arc in the 001-surface Brillouin zone for the same choice of couplings are plotted in Figure~\ref{fig:chapter06_AFPanel}~(d).
+
+In addition to the Fermi arc which terminates at the projection of the Weyl nodes in the surface Brillouin zone, there appear additional line-like surface states which form incontractible loops.
+These can be seen as remnants of Fermi arcs due to Weyl nodes which are gapped out in this part of the phase diagram.
+If the AF flux configuration is extended beyond its range of validity, \ie, for $J_z \lesssim 0.42$ with $J_x = J_y$, one finds the existence of an additional six Weyl nodes.
+These Weyl nodes emerge from the $\Gamma$-point at $J_z \approx 0.294$ and move away from one another as $J_z$ is increased, always pinned to the three mirror planes.
+At $J_z \approx 0.414$, the six Weyl nodes once again meet and annihilate at the $\Gamma$-point.
+However, as they do so, they trace out incontractible loops across the Brillouin zone.
+In Figure~\ref{fig:chapter06_AFPanel2}~(a) and (b) are pictured the evolution of these six additional Weyl nodes (excluding the two Weyl nodes on the $C_3$-invariant axis mentioned in the previous paragraph) in the bulk Brillouin zone and projected down to the 001-surface Brillouin zone, respectively.
+Here can be seen the incontractible loops along which they travel before gapping out.
 
 A consequence of their trajectories through the Brillouin zone is that their corresponding Fermi arcs (pictured in Figure~\ref{fig:chapter06_AFPanel2}~(c)), rather than shrinking to a point and gapping out with the Weyl nodes, are stretched out along similar incontractible loops.
 The result is that, while the Weyl nodes responsible for the surface states gap out, the surface states themselves remain behind (as can be seen in Figure~\ref{fig:chapter06_AFPanel}~(d) pictured in red).
@@ -445,7 +445,6 @@ Due to the lack of a projective time-reversal operator, the momentum space Hamil
 \end{equation}
 %
 \ie, it is an inversion symmetric band Hamiltonian.
-\newpage
 
 
 %
