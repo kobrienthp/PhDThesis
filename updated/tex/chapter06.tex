@@ -4,7 +4,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %
-\footnote{This chapter discusses work which is to be reported in Reference~\cite{MischenkoPRB2019}.}The previous chapter introduced a number of three-dimensional, tricoordinated lattices and analyzed the physics of the Kitaev model defined on these lattices.
+\footnote{This chapter discusses work which is to be reported in Reference~\cite{MischenkoPRB2019}. P~.A. Mishchenko and Y. Kato are responsible for determining the ground state flux configurations, while the author of this thesis performed the analysis of the fermionic excitations.}The previous chapter introduced a number of three-dimensional, tricoordinated lattices and analyzed the physics of the Kitaev model defined on these lattices.
 The end result of this analysis was to provide a method for classifying the stable, gapless quantum spin liquids on these lattices making use of an object called the projective symmetry group.
 The detailed analysis of the Kitaev model on these lattices served to illustrate the power of this method for explaining the ground state properties of the gapless quantum spin liquid phases as well as to provide an understanding of the stability of the resulting low-energy features.
 
@@ -15,7 +15,7 @@ As mentioned in the previous chapter, the Kitaev model on this lattice has subse
 The other such lattice, lattice (9,3)a, is the subject of the present chapter.
 
 The remainder of this chapter is structured as follows.
-Section~\ref{section:chapter06_Lattice} provides detailed information on the deformed version of lattice (9,3)a that is used in the analysis presented in this chapter.
+Section~\ref{section:chapter06_Lattice} provides detailed information on a deformed version of lattice (9,3)a that is used in the analysis presented in this chapter.
 Section~\ref{section:chapter06_Fluxes} discusses the \ZZ~fluxes throughout the ground state phase diagram as well as information about the quantum Monte Carlo methods used by collaborators of the present author to investigate them.
 In all cases, the ground state flux configuration breaks time-reversal symmetry spontaneously due to the non-bipartiteness of the underlying lattice, resulting in a \textit{chiral} spin liquid ground state.
 Section~\ref{section:chapter06_GaplessSpinLiquids} makes use of this flux information to solve for the ground state phase diagram of the fermionic quasiparticles and provides a detailed discussion of the gapless portions of this phase diagram.
@@ -118,7 +118,7 @@ The first inversion center lies at the center of the twelve-site unit cell, wher
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %
-As the quantum Monte Carlo (QMC) simulations of the Kitaev model for lattice (9,3)a were not performed by the author of this work, but rather by his collaborators, a detailed explanation of the methods used will not be provided here.
+As the quantum Monte Carlo (QMC) simulations of the Kitaev model for lattice (9,3)a were not performed by the author of this work, but rather by his collaborators P.~A. Mishchenko and Y. Kato, a detailed explanation of the methods used will not be provided here.
 However, in order to frame the remainder of this work, this section will explain the basic ideas behind the simulations.
 
 Due to the bond-dependent interactions of the Kitaev Hamiltonian
@@ -129,7 +129,7 @@ Due to the bond-dependent interactions of the Kitaev Hamiltonian
 %
 the usual spin QMC methods based on the Suzuki-Trotter decomposition suffer from the negative sign problem and cannot be used~\cite{NasuPRL2014}.
 However, in Chapter~\ref{chapter:KitaevHoneycombModel} it was seen that the Kitaev Hamiltonian may be reframed as a free Majorana Hamiltonian in the background of a static \ZZ~gauge field.
-The fermionic Kitaev Hamiltonian in a fixed gauge sector may be straightforwardly diagonalized and the resulting eigenbasis used in the QMC simulations in order to avoid the sign problem.
+The fermionic Kitaev Hamiltonian in a fixed gauge sector may be straightforwardly diagonalized and the resulting eigenbasis used in the QMC simulations in order to avoid the sign problem~\cite{NasuPRL2014}.
 In practice, rather than using the Majorana representations seen in Chapters~\ref{chapter:KitaevHoneycombModel} and~\ref{chapter:ProjectiveSymmetryGroup}, the model is solved via Jordan-Wigner transformation~\cite{ChenPRB2007,FengPRL2007,ChenJPA2008}, resulting in the free Majorana Hamiltonian
 %
 \begin{equation}
@@ -171,7 +171,8 @@ Additionally, the simulations utilized feedback-optimized parallel tempering met
 	\label{fig:chapter06_9_3aFluxConfigurations}
 \end{figure}
 %
-A combination of the QMC simulations described above along with a straightforward variational approach was used to determine the ground state flux configuration as a function of exchange couplings.
+In addition to the QMC simulations described above, a number of potential ground state flux configurations were found from effective models obtained in the various limits of anisotropic exchange couplings via perturbation theory.
+A combination of the QMC results along with a straightforward variational approach using the aforementioned trial flux configurations was used to determine the ground state flux configuration as a function of exchange couplings.
 The resulting ground state flux phase diagram is pictured in Figure~\ref{fig:chapter06_9_3aPanel}~(b).
 As can be seen from the figure, the ground state of the Kitaev model on lattice (9,3)a exhibits a variety of different flux phases.
 It turns out that the SII and A0F flux phases (depicted in Figures~\ref{fig:chapter06_9_3aFluxConfigurations}~(b) and (c), respectively) correspond to fully gapped quantum spin liquid ground states, whereas the SI, AF and AFII flux phases (depicted in Figures~\ref{fig:chapter06_9_3aFluxConfigurations}~(d), (e) and (f), respectively) host both gapped and gapless quantum spin liquid ground states depending on the exact choice of coupling strengths.
