@@ -959,7 +959,7 @@ The work presented in this chapter, however, does not tackle the problem of find
 Instead, the flux sector corresponding to all plaquettes having $0$-flux is used to illustrate the ideas of the classification scheme.
 This flux sector is the only one which respects all of the lattice symmetries, but is not frustrated.
 Such a flux sector can always be stabilized as the ground state by adding terms to the Hamiltonian which penalize $\pi$-flux through plaquettes, similar to what was done in Reference~\cite{LaiPRB2011} for the Kitaev model on the two-dimensional square-octagon lattice.
-Note that the results reported below are, indeed, qualitatively correct also for the true ground state spin liquid on lattice (8,3)c.
+Note that the results reported below are, indeed, qualitatively correct~\cite{EschmannPRL2019} also for the true ground state spin liquid on lattice (8,3)c.
 The vison gap for lattice (8,3)c is not reported here as calculations were not done in the ground state sector, however, it is worth noting that an elementary vison excitation results in the excitation of four loop operators (further details are given in Appendix~\ref{appendix:ThreeDimensionalKitaevModels_8_3c}).
 
 
@@ -1782,7 +1782,7 @@ These nodal lines are characterized by an integer invariant and are protected by
 Diagonalizing the concrete Kitaev Hamiltonian for lattice (10,3)b, indeed, reveals an extended gapless phase around the point of isotropic couplings (see Figure~\ref{fig:chapter05_10_3bPanel}~(b)), where the zero modes correspond to a contractible loop in the Brillouin zone.
 At the isotropic point, this line lies in the plane defined by $k_x + k_y = 0$.
 
-Breaking time-reversal explicitly by introducing an external magnetic field removes the symmetry protection of the nodal line, gapping it to a pair of Weyl nodes due to the presence of a trivially implemented projective inversion symmetry.
+Breaking time-reversal explicitly by introducing an external magnetic field removes the symmetry protection of the nodal line, gapping it to a pair of Weyl nodes due to the presence of a trivially implemented projective inversion symmetry~\cite{HermannsPRL2015}.
 This is precisely the scenario which was seen to occur for lattice (8,3)c, above.
 For small values of $\kappa$, the Weyl nodes move along the $z$-axis.
 At $\kappa = \frac{1}{2} \sqrt{\frac{3}{5}}$, four more Weyl nodes appear.
@@ -2092,5 +2092,17 @@ This so-called spin-Peierls BCS instability may be neutralized, however, by brea
 
 Finally, it should be repeated that the analyses of lattices (8,3)c and (9,3)a were not performed in the ground state flux sector.
 In both cases, subsequent quantum Monte Carlo studies have been undertaken to determine the flux configurations throughout the entire ground state phase diagram.
-Reference~\cite{EschmannPRL2019}, which reports a detailed study of the Kitaev model on lattice (8,3)c, similarly finds nodal lines for roughly isotropic couplings as expected from the analysis of this chapter.
-A more realistic analysis of the Kitaev model on lattice (9,3)a is the subject of Chapter~\ref{chapter:HypernonagonLattice}.
+
+While Reference~\cite{EschmannPRL2019}, which reports a detailed study of the Kitaev model on lattice (8,3)c, finds that the fermions form nodal lines in the ground state for relatively isotropic couplings as expected from the analysis of this chapter, it also uncovers a richer physics associated to the \ZZ~gauge field.
+The lack of a canonical flux sector as described in Section~\ref{section:chapter05_8_3c} is shown to result in a so-called "gauge frustration", wherein the local constraints on the gauge field lead to a residual extensive degeneracy which is only lifted by the itinerant Majorana fermions.
+This gauge frustration is maximum for $J_z \leq J_x = J_y$.
+Here, the formation of nodal lines by the itinerant Majorana fermions at low temperature partially lifts the degeneracy in the gauge sector, leading to a low-temperature phase transition to a columnar order with staggered fluxes.
+This columnar ordered flux phase is shown to retain some of its residual ground state entropy and, furthermore, breaks the rotational symmetry of the lattice on the level of the fluxes.
+In contrast, for $J_z \gg J_x = J_y$, it is the energetics of the \textit{gauge field} which is seen to select a unique ground state flux configuration, consistent with the perturbation theory results in Appendix~\ref{appendix:LoopModels_8_3c}.
+For intermediate values of $J_z$, the energetics of the gauge field and the itinerant Majorana fermions compete, with the fermions ultimately winning out and selecting yet another unique columnar flux order.
+
+In Reference~\cite{MischenkoPRB2019}, a more realistic analysis of the Kitaev model on lattice (9,3)a was performed, taking into account the effects of the gauge field which were ignored in the analysis of this chapter.
+The results of this study are the subject of Chapter~\ref{chapter:HypernonagonLattice}, where they are discussed in detail.
+To briefly summarize them here, the gauge field is seen to select a number of distinct ground state configurations throughout the phase diagram, leading to a variety of both gapped and gapless chiral spin liquid ground states.
+Whereas most of the gapless spin liquid phases are seen to be Weyl spin liquids as expected, one of them is seen to host stable nodal lines.
+While an analytical understanding of the presence of these stable nodal lines goes beyond the presentation of this chapter, such an understanding is developed in Chapter~\ref{chapter:HypernonagonLattice}.
