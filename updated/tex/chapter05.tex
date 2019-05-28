@@ -1091,7 +1091,7 @@ In order to simplify notation, the following basis is defined:
 	\end{matrix*}
 \end{equation}
 %
-In the basis $(\ba, \bb, \bc)$, the positions of the sites are given by\pagebreak
+In the basis $(\ba, \bb, \bc)$, the positions of the sites are given by%\pagebreak
 %
 \begin{equation}
 	\begin{matrix*}[l]
@@ -1227,6 +1227,20 @@ Due to the fact that the gauge transformation $\op{G}_{\mathcal{T}}$ is constant
 		\end{pmatrix}.
 \end{equation}
 %
+%
+\begin{figure}[tb]
+	\centering
+	\includegraphics[width=\linewidth]{./chapter05/8_3nPanel2.pdf}
+	\caption{
+		(a) Brillouin zone of lattice (8,3)n with high-symmetry points.
+		(b) Majorana dispersion plotted along a high-symmetry path.
+		(c) Brillouin zone a path cutting through the Dirac/Weyl nodes.
+		(d) Dispersion along the path in shown in (c).
+		Gray lines correspond to $\kappa = 0$ while green lines correspond to $\kappa = 0.05$.
+	}
+	\label{fig:chapter05_8_3nPanel2}
+\end{figure}
+%
 
 
 %
@@ -1246,20 +1260,6 @@ For small values of $\kappa$, this gapless phase is a Weyl spin liquid.
 However, with time-reversal symmetry broken and projective inversion symmetry offering no protection, the Weyl nodes are not pinned to zero energy as is the case for lattices (8,3)b and (8,3)c above.
 In fact, for sufficiently large values of $\kappa$, the degeneracies move away from zero energy, resulting in topologically protected Fermi surfaces as seen for lattice (8,3)a.
 Note that the Fermi surfaces here are related by the perfect nesting vector $\til{\bk}_0$ due to the presence of inversion symmetry.
-%
-\begin{figure}[tb]
-	\centering
-	\includegraphics[width=\linewidth]{./chapter05/8_3nPanel2.pdf}
-	\caption{
-		(a) Brillouin zone of lattice (8,3)n with high-symmetry points.
-		(b) Majorana dispersion plotted along a high-symmetry path.
-		(c) Brillouin zone a path cutting through the Dirac/Weyl nodes.
-		(d) Dispersion along the path in shown in (c).
-		Gray lines correspond to $\kappa = 0$ while green lines correspond to $\kappa = 0.05$.
-	}
-	\label{fig:chapter05_8_3nPanel2}
-\end{figure}
-%
 
 
 %
@@ -1319,7 +1319,7 @@ Expressed in the same basis as above, the lattice vectors are chosen to be
 	\end{matrix*}
 \end{equation}
 %
-with the corresponding reciprocal lattice vectors (passing back to the standard orthonormal basis)
+with the corresponding reciprocal lattice vectors (passing back to the standard orthonormal basis)\pagebreak
 %
 \begin{equation}
 	\begin{matrix*}[l]
@@ -1576,6 +1576,16 @@ Due to the fact that the gauge transformation $\op{G}_{\mathcal{T}}$ relates sta
 		\end{pmatrix}.
 \end{equation}
 %
+%
+\begin{figure}[tb]
+	\centering
+	\includegraphics[width=0.7\linewidth]{./chapter05/10_3aFermiSurface.png}
+	\caption{
+		Evolution of the Majorana Fermi surfaces of lattice (10,3)a for varying exchange couplings $0.1 \leq J_z \leq 0.49$ and $J_x = J_y = (1 - Jz)/2$.
+	}
+	\label{fig:chapter05_10_3aFermiSurfaces}
+\end{figure}
+%
 
 
 %
@@ -1586,16 +1596,6 @@ Due to the fact that the gauge transformation $\op{G}_{\mathcal{T}}$ relates sta
 As discussed in the context of lattice (8,3)a, due to the non-trivial projective representation of time-reversal symmetry, \ie, with $\bk \neq \bm{0}$, along with the absence of inversion symmetry, lattice (10,3)a may host topological Fermi surfaces protected by Weyl-type degeneracies at finite energy.
 Indeed, diagonalizing the concrete Kitaev Hamiltonian for lattice (10,3)a reveals an extended gapless phase around the point of isotropic couplings.
 In the phase diagram of Figure~\ref{fig:chapter05_10_3aPanel}~(b), the darker shaded orange region corresponds to the presence of such topologically protected Fermi surfaces, whereas the lighter shaded orange regions correspond to topologically trivial Fermi surfaces.
-%
-\begin{figure}[tb]
-	\centering
-	\includegraphics[width=0.55\linewidth]{./chapter05/10_3aFermiSurface.png}
-	\caption{
-		Evolution of the Majorana Fermi surfaces of lattice (10,3)a for varying exchange couplings $0.1 \leq J_z \leq 0.49$ and $J_x = J_y = (1 - Jz)/2$.
-	}
-	\label{fig:chapter05_10_3aFermiSurfaces}
-\end{figure}
-%
 
 The topological Fermi surfaces are protected by Weyl-like degeneracies at finite energy.
 There are a total of four such Weyl points, two of which are positively charged and two of which are negatively charged.
@@ -1635,6 +1635,20 @@ However, they do deform in a non-trivial way as magnetic field strength is varie
 %
 \subsubsection{Lattice information}
 %
+%
+%
+\begin{figure}[tb]
+	\centering
+	\includegraphics[width=\linewidth]{./chapter05/10_3bPanel.pdf}
+	\caption{
+		(a) Unit cell and translation vectors for the Kitaev model on lattice (10,3)b.
+		(b) Ground state phase diagram for lattice (10,3)b.
+		The region shaded orange corresponds to a gapless phase with a nodal line.
+		The blue shaded regions are gapped.
+		(c) At the isotropic point, the nodal line (marked in blue) is located in the $k_x + k_y = 0$ plane (indicated in gray).
+	}
+	\label{fig:chapter05_10_3bPanel}
+\end{figure}
 %
 Lattice (10,3)b is probably the best known three-dimensional tricoordinated lattice and is typically referred to in the literature as the hyperhoneycomb lattice~\cite{TakayamaPRL2015}.
 The Kitaev model for this lattice has been discussed extensively~\cite{MandalPRB2009,HermannsPRB2014,LeePRB2014,KimchiPRB2014,NasuPRB2014} in the context of the iridate material \betaLithiumIridate~\cite{TakayamaPRL2015}.
@@ -1681,20 +1695,6 @@ This assignment of bonds is chosen to respect as many of the lattice symmetries 
 All $x$- and $y$-bonds are related by a combination of $C_2$ and a two-fold screw symmetry.
 All $z$-bonds are related to each other by inversion symmetry, but are not related to any other bond type by lattice symmetries.
 The symmetry between $x$- and $y$-bonds is reflected in the ground state phase diagram shown in Figure~\ref{fig:chapter05_10_3bPanel}~(b).
-%
-\begin{figure}[tb]
-	\centering
-	\includegraphics[width=\linewidth]{./chapter05/10_3bPanel.pdf}
-	\caption{
-		(a) Unit cell and translation vectors for the Kitaev model on lattice (10,3)b.
-		(b) Ground state phase diagram for lattice (10,3)b.
-		The region shaded orange corresponds to a gapless phase with a nodal line.
-		The blue shaded regions are gapped.
-		(c) At the isotropic point, the nodal line (marked in blue) is located in the $k_x + k_y = 0$ plane (indicated in gray).
-	}
-	\label{fig:chapter05_10_3bPanel}
-\end{figure}
-%
 
 
 %
@@ -1768,7 +1768,6 @@ Due to the fact that the gauge transformation $\op{G}_{\mathcal{T}}$ is constant
 		\end{pmatrix}.
 \end{equation}
 %
-\newpage
 
 
 %
@@ -1792,6 +1791,7 @@ While the Weyl nodes which move along the $z$-axis recombine at $\kappa \rightar
 Instead, the velocity vectors of the isolated Weyl nodes vanish, collapsing the bulk gap to a nodal line.
 Additionally, one notes that for the pure Kitaev model, \ie, with $\kappa = 0$, there is an entire puddle of zero modes which appear in the surface Brillouin zone.
 These zero modes appear within the area bounded by the projection of the bulk nodal line to the surface Brillouin zone and are associated to the non-vanishing integer invariant due to the presence of time-reversal symmetry.
+\newpage
 
 
 %
@@ -1946,19 +1946,6 @@ Due to the fact that the gauge transformations $\op{G}_{\mathcal{T}}$ is constan
 \subsubsection{Majorana band structure}
 %
 %
-As was the case for lattices (8,3)c and (10,3)b, a trivially implemented projective time-reversal symmetry leads to nodal lines being the only stable zero energy manifolds for lattice (10,3)c.
-These nodal lines are characterized by an integer invariant and are protected by the presence of time-reversal symmetry.
-
-Diagonalizing the concrete Kitaev Hamiltonian for lattice (10,3)c, indeed, reveals an extended gapless phase around the point of isotropic couplings (see Figure~\ref{fig:chapter05_10_3cPanel}~(b)), where the zero modes correspond to two closed nodal lines.
-These nodal lines are related by the nesting vector $\bk'_0 = \bq_1 / 2$ due to the projective representation of translation symmetry.
-For isotropic couplings, these nodal lines lie in the plane defined by $k_z = 0$ (see Figure~\ref{fig:chapter05_10_3cPanel}~(c) -- note that the Brillouin zone is for the expanded unit cell).
-Breaking time-reversal symmetry explicitly by introducing an external magnetic field removes the symmetry protection of the nodal lines, gapping each line to six Weyl nodes related by a threefold screw axis, for a total of twelve Weyl nodes.
-
-However, in contrast to lattices (8,3)c and (10,3)b, lattice (10,3)c is chiral.
-This lack of inversion symmetry allows the Weyl-degeneracies to move away from zero energy as $\kappa$ is increased, resulting in twelve Fermi surfaces.
-As each Fermi surface is generated by a Weyl-like degeneracy, it inherits a topological protection.
-For a visualization of the formation of the Fermi surfaces, refer to Figure~\ref{fig:chapter05_10_3cPanel2}.
-Note that lattice (10,3)c represents the only example presented in this work for which the breaking of time-reversal symmetry actually \textit{increases} the density of states at zero energy.
 %
 \begin{figure}[tb]
 	\centering
@@ -1973,6 +1960,19 @@ Note that lattice (10,3)c represents the only example presented in this work for
 	\label{fig:chapter05_10_3cPanel2}
 \end{figure}
 %
+As was the case for lattices (8,3)c and (10,3)b, a trivially implemented projective time-reversal symmetry leads to nodal lines being the only stable zero energy manifolds for lattice (10,3)c.
+These nodal lines are characterized by an integer invariant and are protected by the presence of time-reversal symmetry.
+
+Diagonalizing the concrete Kitaev Hamiltonian for lattice (10,3)c, indeed, reveals an extended gapless phase around the point of isotropic couplings (see Figure~\ref{fig:chapter05_10_3cPanel}~(b)), where the zero modes correspond to two closed nodal lines.
+These nodal lines are related by the nesting vector $\bk'_0 = \bq_1 / 2$ due to the projective representation of translation symmetry.
+For isotropic couplings, these nodal lines lie in the plane defined by $k_z = 0$ (see Figure~\ref{fig:chapter05_10_3cPanel}~(c) -- note that the Brillouin zone is for the expanded unit cell).
+Breaking time-reversal symmetry explicitly by introducing an external magnetic field removes the symmetry protection of the nodal lines, gapping each line to six Weyl nodes related by a threefold screw axis, for a total of twelve Weyl nodes.
+
+However, in contrast to lattices (8,3)c and (10,3)b, lattice (10,3)c is chiral.
+This lack of inversion symmetry allows the Weyl-degeneracies to move away from zero energy as $\kappa$ is increased, resulting in twelve Fermi surfaces.
+As each Fermi surface is generated by a Weyl-like degeneracy, it inherits a topological protection.
+For a visualization of the formation of the Fermi surfaces, refer to Figure~\ref{fig:chapter05_10_3cPanel2}.
+Note that lattice (10,3)c represents the only example presented in this work for which the breaking of time-reversal symmetry actually \textit{increases} the density of states at zero energy.
 
 
 %
@@ -1982,6 +1982,18 @@ Note that lattice (10,3)c represents the only example presented in this work for
 \label{section:chapter05_SpinPeierls}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
+%
+%
+\begin{figure}[tb]
+	\centering
+	\includegraphics[width=\linewidth]{./chapter05/SpinPeierls.pdf}
+	\caption{
+		Effects of time-reversal symmetry breaking on (a) lattice (10,3)a and (b) lattice (8,3)a.
+		Figures on the left show the time-reversal invariant system, whereas figures on the right show the system with time-reversal symmetry broken for $\kappa = 0.1$.
+		Breaking time-reversal symmetry destroys the perfect nesting condition with wave vector $\bk_0$, denoted by the arrow.
+	}
+	\label{fig:chapter05_SpinPeierls}
+\end{figure}
 %
 While the above discussion focuses solely on the pure Kitaev model, it is necessary to understand the effects of additional interactions, \eg, Heisenberg exchange.
 Such additional spin-exchange terms have two generic consequences.
@@ -2000,18 +2012,6 @@ The following shall serve as a brief review of the underlying mechanism and main
 As was shown in Section~\ref{section:chapter05_3DKitaevModels}, stable Majorana Fermi surfaces only occur in a pure Kitaev model when the projective time-reversal symmetry is implemented non-trivially, \ie, with non-vanishing $\bk_0$.
 Combined with particle-hole symmetry, the result is that the Majorana Fermi surfaces exhibit a perfect nesting, \ie, $E(\bk) = -E(\bk + \bk_0)$.
 This perfect nesting is visualized for lattices (10,3)a and (8,3)a in Figure~\ref{fig:chapter05_SpinPeierls}~(a) and (b), respectively.
-%
-\begin{figure}[tb]
-	\centering
-	\includegraphics[width=\linewidth]{./chapter05/SpinPeierls.pdf}
-	\caption{
-		Effects of time-reversal symmetry breaking on (a) lattice (10,3)a and (b) lattice (8,3)a.
-		Figures on the left show the time-reversal invariant system, whereas figures on the right show the system with time-reversal symmetry broken for $\kappa = 0.1$.
-		Breaking time-reversal symmetry destroys the perfect nesting condition with wave vector $\bk_0$, denoted by the arrow.
-	}
-	\label{fig:chapter05_SpinPeierls}
-\end{figure}
-%
 
 It is convenient to express the system in terms of its \textit{complex} fermionic single-particle eigenstates corresponding to the creation/annihilation operators $f_{\alpha}(\bk) = f\dag_{\beta}(-\bk)$.
 The $2n$ Majorana Fermi surfaces are then combined into $n$ complex Fermi surfaces and the perfect nesting condition becomes the usual BCS pairing condition $E(\bk_0/2 + \bk) = E(\bk_0/2 - \bk)$ centered around $\bk_0/2$.
