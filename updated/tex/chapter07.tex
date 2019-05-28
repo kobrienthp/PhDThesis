@@ -12,6 +12,7 @@ While the spin-spin correlations vanish beyond nearest-neighbors, at finite temp
 The bond-bond correlations, however, intimately reflect the gapless nature of the spin liquids.
 Whereas bond-bond correlations are short-ranged in the gapped spin liquid phases, in the \textit{gapless} spin liquid phases the correlation function decays algebraically in a way that depends both on the dimension of the lattice \textit{and} on the character of the gapless modes.
 Recently, these bond-bond correlations between pairs of bonds in distinct bipartitions of a honeycomb lattice have been shown to be related to the entanglement entropy~\cite{YangARXIV2019}.
+In particular, the quantity obtained by integrating the bond-bond correlation function $\avg{Q_A Q_B} - \avg{Q_A} \avg{Q_B}$ over all bonds $Q$ in the respective bipartitions $A$ and $B$ exhibits the same scaling law as the fermionic contribution to the entanglement entropy for the same bipartition.
 
 It has long been known that the Kitaev honeycomb model defined for \textit{classical} Heisenberg spins hosts a classical spin liquid ground state which can be mapped to a hardcore dimer model.
 The classical Kitaev spin liquid also boasts extremely short-ranged spin-spin correlations as well as algebraically decaying bond-bond correlations.
@@ -44,7 +45,7 @@ The classical Kitaev honeycomb model, given by the Hamiltonian
 \end{equation}
 %
 where $\bS_j \in O(3)$ correspond to classical Heisenberg spins, was first studied in the context of a \textit{quantum} spin-$S$ Kitaev model~\cite{BaskaranPRB2008}.
-It was shown that the classical ground states at the isotropic point correspond to an extensively degenerate manifold wherein each spin perfectly satisfies the local Ising constraint with exactly one of its nearest-neighbors~\cite{BaskaranPRB2008,ChandraPRE2010}.
+It was shown that the classical ground states at the isotropic point correspond to an extensively degenerate manifold wherein each spin perfectly satisfies the local Ising constraint with exactly one of its nearest-neighbors~\cite{BaskaranPRB2008,ChandraPRE2010} (see Figure~\ref{fig:chapter07_DimerPanel}~(a)).
 These so-called \textit{dimer} coverings are inherently disordered and spin-spin correlations are non-zero only for nearest-neighbor pairs of dimerized spins~\cite{Ghannad2019}, \ie,
 %
 \begin{equation}
@@ -52,7 +53,17 @@ These so-called \textit{dimer} coverings are inherently disordered and spin-spin
 \end{equation}
 %
 
-Within the ground state manifold, the spin model may be replaced by a model of hardcore dimers which occupy the bonds of the honeycomb lattice.
+%
+\begin{figure}[tb]
+	\centering
+	\includegraphics[width=\linewidth]{./chapter07/DimerPanel.pdf}
+	\caption{
+		One possible ground state of the classical Kitaev honeycomb model represented as (a) a configuration of classical Heisenberg spins, (b) a hardcore dimer covering and (c) a divergence-free polarization field (Figure recreated from Reference~\cite{SelaPRB2014}).
+	}
+	\label{fig:chapter07_DimerPanel}
+\end{figure}
+%
+Within the ground state manifold, the spin model may be replaced by a model of hardcore dimers which occupy the bonds of the honeycomb lattice (see Figure~\ref{fig:chapter07_DimerPanel}~(b)).
 On each $\gamma$-type link one may define a discrete polarization field $\bP(\bR_j, \gamma) = P(\bR_j, \gamma) \hat{\bm{u}}_{\gamma}$ as
 %
 \begin{equation}
@@ -63,7 +74,7 @@ On each $\gamma$-type link one may define a discrete polarization field $\bP(\bR
 	\end{matrix*}\right.
 \end{equation}
 %
-with $\hat{\bm{u}}_{\gamma}$ being the vector connecting the two sites of the link and pointing from sublattice A to sublattice B.
+with $\hat{\bm{u}}_{\gamma}$ being the vector connecting the two sites of the link and pointing from sublattice A to sublattice B (see Figure~\ref{fig:chapter07_DimerPanel}~(c)).
 This polarization field automatically satisfies a discrete divergence-free condition corresponding to the fact that no dimers may overlap.
 The discrete polarization field $\bP(\bR_j, \gamma)$ can be coarse-grained to yield a \textit{continuous} divergence-free polarization field $\bP(\br)$.
 It can be argued that the number of dimer covering ground states corresponding to a specific value of the polarization is governed by a Gaussian distribution centered around $\bP = \bz$~\cite{HenleyARCMP2010}.
@@ -188,17 +199,6 @@ where $\psi_{\alpha}^{A/B}(\bR')$ corresponds to the component of the wave funct
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %
-%
-\begin{figure}[tb]
-	\centering
-	\includegraphics[width=0.7\linewidth]{./chapter07/HoneycombFiniteTempSpinSpinCorrelations.pdf}
-	\caption{
-		Nearest neighbor spin-spin correlations $S^{zz}$ and specific heat $C_v$ as a function of temperature for the Kitaev model on the honeycomb lattice.
-		Comparison of a fixed ground state flux configuration (blue), averaging over random flux configurations (orange), and quantum Monte Carlo simulation (green).
-	}
-	\label{fig:chapter07_6_3SpinSpinCorrelations}
-\end{figure}
-%
 Given Eq.~\eqref{eq:chapter07_TwoSpinZeroT} in the last section, one may simply diagonalize the Kitaev Hamiltonian in a gauge configuration compatible with the ground state flux sector and use the resulting eigenvectors to calculate the zero temperature spin-spin correlation functions.
 Other than it being extremely short-ranged, this quantity is not very interesting on its own.
 What may be interesting, however, is the way these correlations behave in the presence of thermal fluctuations.
@@ -221,6 +221,17 @@ where $N$ is the number of single-particle states, $\epsilon_{\lambda}$ are the 
 \end{equation}
 %
 
+%
+\begin{figure}[tb]
+	\centering
+	\includegraphics[width=0.8\linewidth]{./chapter07/HoneycombFiniteTempSpinSpinCorrelations.pdf}
+	\caption{
+		Nearest neighbor spin-spin correlations $S^{zz}$ and specific heat $C_v$ as a function of temperature for the Kitaev model on the honeycomb lattice.
+		Comparison of a fixed ground state flux configuration (blue), averaging over random flux configurations (orange), and quantum Monte Carlo simulation (green).
+	}
+	\label{fig:chapter07_6_3SpinSpinCorrelations}
+\end{figure}
+%
 To avoid explicitly performing the trace over all many-particle states, the above expressions are simplified as follows
 (for notational simplicity, let $\Theta_\lambda = \beta \epsilon_\lambda/2$ and $\chi^{jk}_\mu = \psi^j_\mu \overline{\psi}^k_\mu$ in the following).
 The fermionic partition function may be evaluated as
@@ -255,19 +266,6 @@ For a more physical picture, recall from the last section that many-fermion stat
 At high temperature where all states are weighted equally, contributions from such pairs of states will cancel each other, resulting in a vanishing of spin-spin correlations.
 While the above analysis ignored thermal fluctuations of the gauge field by assuming a static configuration, the qualitative results are independent of this fact.
 Moreover, for temperatures far enough above the gauge-field-disordering-crossover/transition, a simple averaging over random flux configurations may substitute the full-blown quantum Monte Carlo simulation.
-
-In Figure~\ref{fig:chapter07_6_3SpinSpinCorrelations} are plotted three different data sets for the nearest-neighbor spin-spin correlation function $\avg{S^{zz}}_T$ and the specific heat $C_v$ for the honeycomb lattice as functions of temperature.
-For the data set colored in blue, Eq.~\eqref{eq:chapter07_ThermalSpinSpin} was used to calculate the correlation function $\avg{S^{zz}}_T$ using a fixed gauge corresponding to the ground state flux configuration.
-The specific heat was calculated directly from the single-particle spectrum.
-The orange colored data set was similarly calculated from Eq.~\eqref{eq:chapter07_ThermalSpinSpin}, but this time the data was averaged over a large number of \textit{random} flux configurations.
-Finally, the green data is taken from a quantum Monte Carlo simulation.
-
-Although the correlations at very low temperature measured via quantum Monte Carlo are a little too large due to finite size effects, one can see from the figure that the data smoothly interpolates between the ground state flux sector data and the random flux sector data as temperature is increased.
-Above the low-temperature crossover, the disorder-averaged data fits extremely well to the Monte Carlo simulation data.
-In fact, the difference between the data calculated for the ground state flux sector differs very little from the disorder averaged data.
-The disordering of the fluxes does not appear to shift the high-temperature crossover and, in general, only seems to suppress the value of the correlations slightly.
-It was pointed out in Reference~\cite{NasuPRB2015} that as the fluxes become disordered, the linear scaling of the density of states near zero energy from the clean system is replaced by a finite density of states at zero energy. 
-It may be that this large spectral weight at low energy is responsible for the suppression of correlations due to it being easier to excite many-fermion states at lower temperatures.
 %
 \begin{figure}[tb]
 	\centering
@@ -281,6 +279,19 @@ It may be that this large spectral weight at low energy is responsible for the s
 \end{figure}
 %
 
+In Figure~\ref{fig:chapter07_6_3SpinSpinCorrelations} are plotted three different data sets for the nearest-neighbor spin-spin correlation function $\avg{S^{zz}}_T$ and the specific heat $C_v$ for the honeycomb lattice as functions of temperature.
+For the data set colored in blue, Eq.~\eqref{eq:chapter07_ThermalSpinSpin} was used to calculate the correlation function $\avg{S^{zz}}_T$ using a fixed gauge corresponding to the ground state flux configuration.
+The specific heat was calculated directly from the single-particle spectrum.
+The orange colored data set was similarly calculated from Eq.~\eqref{eq:chapter07_ThermalSpinSpin}, but this time the data was averaged over a large number of \textit{random} flux configurations.
+Finally, the green data is taken from a quantum Monte Carlo simulation.
+
+Although the correlations at very low temperature measured via quantum Monte Carlo are a little too large due to finite size effects, one can see from the figure that the data smoothly interpolates between the ground state flux sector data and the random flux sector data as temperature is increased.
+Above the low-temperature crossover, the disorder-averaged data fits extremely well to the Monte Carlo simulation data.
+In fact, the difference between the data calculated for the ground state flux sector differs very little from the disorder averaged data.
+The disordering of the fluxes does not appear to shift the high-temperature crossover and, in general, only seems to suppress the value of the correlations slightly.
+It was pointed out in Reference~\cite{NasuPRB2015} that as the fluxes become disordered, the linear scaling of the density of states near zero energy from the clean system is replaced by a finite density of states at zero energy. 
+It may be that this large spectral weight at low energy is responsible for the suppression of correlations due to it being easier to excite many-fermion states at lower temperatures.
+
 For a fixed density of \ZZ~fluxes -- whether that of the ground state flux sector or the maximally disordered flux configurations -- the spin-spin correlations are nearly constant up until the crossover temperature where excited many-fermion states destroy the correlations.
 Coupled with the simultaneous release of fermionic entropy, this suggests that below the crossover temperature the only substantial contributions come from the fermionic ground state.
 
@@ -288,6 +299,32 @@ Finally, in Figure~\ref{fig:chapter07_LatticesSpinSpinCorrelations} are plotted 
 From Figure~\ref{fig:chapter07_LatticesSpinSpinCorrelations}~(a) the ground state value of the spin-spin correlations is seen to vary slightly from lattice to lattice, although the decay of correlations occurs at the same temperature.
 However, when averaged over random flux configurations, the data is indistinguishable for the different lattices, as seen in Figure~\ref{fig:chapter07_LatticesSpinSpinCorrelations}~(b).
 This is not so surprising as the low-energy density of states governing the low-temperature correlations for the disordered systems is in all cases governed by random matrix theory for the symmetry class BDI, and the center of mass of the single-particle density of states likely to control the position of the crossover is only slightly affected by disorder.
+%
+\begin{table}[tb]
+	\centering
+	\label{my-label}
+	\begin{tabular}{llrrr}
+		\hline
+		\textbf{Lattice}             & \textbf{Gapless modes}	&	& \textbf{Exponent ($\alpha \approx d + d_c$)}     	\\ \hline
+		\textbf{2D}                  & 							&	&							\\
+		Square-octagon				 & Fermi line 				&	& 3.06 $\pm$ 0.08~~ 			$\approx~ 2 + 1$ \\
+		Honeycomb					 & Dirac nodes        		&	& 3.995 $\pm$ 0.002~~ 		$\approx~ 2 + 2$ \\
+		\textbf{3D}                  & 							&	&							\\
+		(10,3)a 					 & Fermi surface     		&	& 3.93 $\pm$ 0.46~~ 			$\approx~ 3 + 1$ \\
+		(10,3)b						 & Fermi line        		& In-plane:		& 5.15 $\pm$ 0.50~~	 $\approx~ 3 + 2$		\\
+		& 							& Out-of-plane:	& 4.06 $\pm$ 0.01~~ 	 $\approx~ 4\;\,\phantom{+ 1}$	&		\\
+		(10,3)c						 & Fermi line        		& In-plane: 	& 4.99 $\pm$ 0.30~~	 $\approx~ 3 + 2$		\\
+		& 							& Out-of-plane:	& 3.96 $\pm$ 0.29~~	 $\approx~ 4\;\, \phantom{+ 1}$	& 		\\
+		(8,3)b 						 & Weyl nodes        		&	& 6.00 $\pm$ 0.06~~	 $\approx~ 3 + 3$ 		\\
+	\end{tabular}
+	\caption{
+		Overview of algebraic bond-bond correlations in gapless Kitaev spin liquids.
+		The leading order long-wavelength behavior is seen to be given by $C(\br) \sim 1/\abs{\br}^{d + d_c}$, where $d$ is the spatial dimension and $d_c$ is the codimension of the nodal manifold.
+	}
+	\label{table:chapter07_BondBondCorrelations}
+\end{table}
+%
+\newpage
 
 
 %
@@ -304,30 +341,31 @@ This is not so surprising as the low-energy density of states governing the low-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %
-%
-\begin{table}[tb]
-	\centering
-	\label{my-label}
-	\begin{tabular}{llrr}
-		\hline
-		\textbf{Lattice}             & \textbf{Gapless modes}	&	& \textbf{Exponent}     	\\ \hline
-		\textbf{2D}                  & 							&	&							\\
-		Square-octagon				 & Fermi line 				&	& 3.06 $\pm$ 0.08~~ 			$\approx~ 3$ \\
-		Honeycomb					 & Dirac nodes        		&	& 3.995 $\pm$ 0.002~~ 		$\approx~ 4$ \\
-		\textbf{3D}                  & 							&	&							\\
-		(10,3)a 					 & Fermi surface     		&	& 3.93 $\pm$ 0.46~~ 			$\approx~ 4$ \\
-		(10,3)b						 & Fermi line        		& In-plane:		& 5.15 $\pm$ 0.50~~	 $\approx~$ 5		\\
-		& 							& Out-of-plane:	& 4.06 $\pm$ 0.01~~ 	 $\approx~$ 4		\\
-		(10,3)c						 & Fermi line        		& In-plane: 	& 4.99 $\pm$ 0.30~~	 $\approx~$ 5		\\
-		& 							& Out-of-plane:	& 3.96 $\pm$ 0.29~~	 $\approx~$ 4 		\\
-		(8,3)b 						 & Weyl nodes        		&	& 6.00 $\pm$ 0.06~~	 $\approx~ 6$ 		\\
-	\end{tabular}
-	\caption{
-		Overview of algebraic bond-bond correlations in gapless Kitaev spin liquids.
-	}
-	\label{table:chapter07_BondBondCorrelations}
-\end{table}
-%
+%%
+%\begin{table}[tb]
+%	\centering
+%	\label{my-label}
+%	\begin{tabular}{llrrr}
+%		\hline
+%		\textbf{Lattice}             & \textbf{Gapless modes}	&	& \textbf{Exponent ($\alpha \approx d + d_c$)}     	\\ \hline
+%		\textbf{2D}                  & 							&	&							\\
+%		Square-octagon				 & Fermi line 				&	& 3.06 $\pm$ 0.08~~ 			$\approx~ 3$	& $= 2 + 1$ \\
+%		Honeycomb					 & Dirac nodes        		&	& 3.995 $\pm$ 0.002~~ 		$\approx~ 4$	& $= 2 + 2$ \\
+%		\textbf{3D}                  & 							&	&							\\
+%		(10,3)a 					 & Fermi surface     		&	& 3.93 $\pm$ 0.46~~ 			$\approx~ 4$	& $= 3 + 1$ \\
+%		(10,3)b						 & Fermi line        		& In-plane:		& 5.15 $\pm$ 0.50~~	 $\approx~ 5$	& $= 3 + 2$		\\
+%		& 							& Out-of-plane:	& 4.06 $\pm$ 0.01~~ 	 $\approx~ 4$	&		\\
+%		(10,3)c						 & Fermi line        		& In-plane: 	& 4.99 $\pm$ 0.30~~	 $\approx~ 5$	& $= 3 + 2$		\\
+%		& 							& Out-of-plane:	& 3.96 $\pm$ 0.29~~	 $\approx~ 4$	& 		\\
+%		(8,3)b 						 & Weyl nodes        		&	& 6.00 $\pm$ 0.06~~	 $\approx~ 6$	& $= 3 + 3$ 		\\
+%	\end{tabular}
+%	\caption{
+%		Overview of algebraic bond-bond correlations in gapless Kitaev spin liquids.
+%		The leading order long-wavelength behavior is seen to be given by $C(\br) \sim 1/\abs{\br}^{d + d_c}$, where $d$ is the spatial dimension and $d_c$ is the codimension of the nodal manifold.
+%	}
+%	\label{table:chapter07_BondBondCorrelations}
+%\end{table}
+%%
 In order to compute bond-bond correlations of the form
 %
 \begin{align}
@@ -577,7 +615,7 @@ As all states lie below the Fermi level, the only non-vanishing terms contributi
 %
 \begin{figure}[tb]
 	\centering
-	\includegraphics[width=0.7\linewidth]{./chapter07/HoneycombDispersion.pdf}
+	\includegraphics[width=0.9\linewidth]{./chapter07/HoneycombDispersion.pdf}
 	\caption{
 		Gapless Dirac cone band structure of the Kitaev model on the honeycomb lattice.
 	}
@@ -737,7 +775,7 @@ Using the above expression, the bond-bond correlation function at finite tempera
 	&\qquad\Big[(1-\delta_{\mu,\nu})\tanh{[\beta \epsilon_\mu/2]}\tanh{[\beta \epsilon_\nu/2]} + \delta_{\mu,\nu} \Big].
 \end{align}
 %
-For a translationally invariant gauge configuration this may be evaluated in momentum space as\newpage
+For a translationally invariant gauge configuration this may be evaluated in momentum space as
 %
 \begin{align}
 	\tilde{C}(\bk, T) &= -\frac{4}{V^{3/2}} \sum_{\bq} \sum_{\alpha,\beta} \Bigg[ \left|\psi_{\alpha}^A(\bk + \bq)\right|^2 \left|\psi_{\beta}^B(\bq)\right|^2 \nonumber\\
